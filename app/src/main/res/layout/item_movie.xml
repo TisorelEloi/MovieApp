@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/lvMovieImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="19dp"
+        tools:src="@mipmap/ic_launcher"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/lvMovieImage"
+        android:layout_marginStart="97dp"
+        android:textSize="18sp"
+        tools:text="Monde Jurassique: Royaume déchu" />
+
+    <TextView
+        android:id="@+id/tvOverview"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/tvTitle"
+        android:layout_marginTop="74dp"
+        tools:text="Plusieurs années après la disparition de Jurassic World, une éruption volcanique menace les dinosaures restants sur l'île d'Isla Nublar.Claim Dearing, ancien directeur du parc et fondateur du groupe de protection des dinosaures, recrute Owen Grady pour aider à prévenir l'extinction de les dinosaures une fois de plus." />
+
+</RelativeLayout>
